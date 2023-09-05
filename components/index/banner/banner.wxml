@@ -1,0 +1,8 @@
+<!--components/index/banner/banner.wxml-->
+<view>
+  <swiper autoplay="true" indicator-dots="true" circular="true" interval="2500" indicator-color="#999" indicator-active-color="#fff">
+    <swiper-item wx:for="{{bannerList}}" wx:key="*this">
+      <image src="{{item.imageUrl}}" alt="" />
+    </swiper-item>
+  </swiper>
+</view>

@@ -1,0 +1,51 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/playing/playing",
+    "pages/musical/musical",
+    "pages/mine/mine",
+    "pages/search/search",
+    "pages/mvdetail/mvdetail",
+    "pages/singerdetail/singerdetail",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "网易云音乐",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "backgroundColor": "#333333",
+    "selectedColor": "#f6ce55",
+    "color": "#919191",
+    "list": [
+      {   
+        "pagePath": "pages/index/index",
+        "text": "推荐",
+        "iconPath": "./image/image/home-1.png",
+        "selectedIconPath": "./image/image/home-2.png"
+      },
+      {
+        "pagePath": "pages/playing/playing",
+        "text": "正在播放",
+        "iconPath": "./image/image/rank-1.png",
+        "selectedIconPath": "./image/image/rank-2.png"
+      },
+      {
+        "pagePath": "pages/musical/musical",
+        "text": "音乐厅",
+        "iconPath": "./image/image/singer-1.png",
+        "selectedIconPath": "./image/image/singer-2.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "./image/image/my.png",
+        "selectedIconPath": "./image/image/my-1.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

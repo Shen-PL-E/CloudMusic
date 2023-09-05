@@ -1,0 +1,18 @@
+<!--pages/singerdetail/singerdetail.wxml-->
+<view class="detail">
+<view class="songstop">
+  <image src="{{songslist[0].al.picUrl}}" mode="" />
+  <view class="mask"></view>
+  <view class="play" bind:tap="">随机播放</view>
+</view>
+<view class="songscon">
+  <view wx:for="{{songslist}}" wx:key-id="{{item.id}}" wx:key="id" data-item="{{item}}" class="songsitem"
+  bind:tap="gotoplay">
+    {{item.name}}
+    <view class="songstit">
+      {{item.al.name}}-<text wx:for="{{item.ar}}" wx:for-item="ele" wx:key="index">{{ele.name}}<text wx:if="{{index!=item.ar.length-1}}">、</text>
+      </text>
+    </view>
+  </view>
+</view>
+</view>

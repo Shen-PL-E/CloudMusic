@@ -1,0 +1,7 @@
+<!--pages/mvdetail/mvdetail.wxml-->
+<view class="mv-video">
+  <video src="{{mvurl}}" autoplay="true" class="vid" />
+</view>
+<view class="mvname">
+  {{mvname}}
+</view>

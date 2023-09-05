@@ -1,0 +1,33 @@
+<!--pages/playing/playing.wxml-->
+
+<view class="top">
+  <view class="img-bg" style="background: url({{bg}});">
+  </view>
+  <view class="tit">{{tit}}</view>
+  <view class="singer">{{singer}}</view>
+  <swiper class="swp" indicator-dots indicator-color="#919191" indicator-active-color="#FFF">
+    <swiper-item>
+      <image src="{{img}}" mode="" class="swp-img"/>
+    </swiper-item>
+    <swiper-item>
+      <solly-view>
+
+      </solly-view>
+      <view>暂无歌词</view>
+    </swiper-item>
+  </swiper>
+</view>
+<view class="musicprog">
+  <view class="time">
+    <!-- {{playedtime}} -->
+    00:00
+  </view>
+  <view class="prog">
+    <slider bindchange="" block-size="10" activeColor="#fdcb32" block-color="#fdcb32" value="{{present}}" bindchange="seek" />
+  </view>
+  <view class="time">
+    <!-- {{remaintime}} -->
+    03:14
+  </view>
+</view>
+<playingicon></playingicon>

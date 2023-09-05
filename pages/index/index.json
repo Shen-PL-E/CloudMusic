@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "search":"/components/index/search/search",
+    "banner":"/components/index/banner/banner",
+    "hot":"/components/index/hot/hot",
+    "mv":"/components/index/mv/mv"
+  }
+}

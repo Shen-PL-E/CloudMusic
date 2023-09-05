@@ -1,0 +1,11 @@
+<!--components/index/mv/mv.wxml-->
+<view class="mvtop">
+  热门MV推荐
+</view>
+<view class="mvcont">
+    <view class="mvItem" wx:for="{{mvList}}" wx:key="*this" data-id="{{item.id}}" bind:tap="gotomvdetail">
+      <image src="{{item.cover}}" mode="widthFix" class="img" />
+      <view class="songname">{{item.name}}</view>
+      <view class="songar">{{item.artistName}}</view>
+    </view>
+</view>

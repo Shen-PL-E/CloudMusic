@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "playingicon":"/components/playing/playingicon/playingicon"
+  }
+}

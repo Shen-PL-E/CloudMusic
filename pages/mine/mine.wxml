@@ -1,0 +1,48 @@
+<!--pages/mine/mine.wxml-->
+<!--pages/mine/mine.wxml-->
+<view class="mine">
+<!-- 头部 -->
+<view class="login" bindtap="getnicheng">
+  <image src="../../image/image/defaule.png" mode="" class="img"/>
+  <view class="nic">
+    {{nicheng}}
+  </view>
+</view>
+
+<!-- 点击项 -->
+<view class="formlist">
+
+  <view class="formitem" bindtap="gotocamera">
+  扫码
+  <image src="../../image/image/right.png" mode="" class="icon"/>
+  </view>
+  <view class="formitem">
+  联系我们
+  <image src="../../image/image/right.png" mode="" class="icon"/>
+  </view>
+  <view class="formitem" bindtap="openmap">
+  打开地图
+  <image src="../../image/image/right.png" mode="" class="icon"/>
+  </view>
+  <view class="formitem" bindtap="getlocation">
+  选择位置
+  <image src="../../image/image/right.png" mode="" class="icon"/>
+  </view>
+  <view class="formitem" bindtap="address">
+  收货地址
+  <image src="../../image/image/right.png" mode="" class="icon"/>
+  </view>
+  <view class="formitem" bindtap="login">
+  用户登录
+  <image src="../../image/image/right.png" mode="" class="icon"/>
+  </view>
+</view>
+
+<!-- button项 -->
+<view class="btnlist">
+  <button bindtap="getopenid">获取用户openid</button>
+  <button open-type="contact">客服</button>
+  <button open-type="share">转发</button>
+</view>
+</view>
+

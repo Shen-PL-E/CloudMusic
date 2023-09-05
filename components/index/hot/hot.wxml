@@ -1,0 +1,14 @@
+<!--components/index/hot/hot.wxml-->
+<view class="hottop">
+  热门榜单推荐
+</view>
+<view class="cont" wx:for="{{hotList}}" wx:key="*this"> 
+  <view class="left">
+  <image src="{{item.coverImgUrl}}" mode=""/> 
+  </view>
+  <view class="right">
+    <view wx:for="{{item.tracks}}" wx:key="*this" class="right-cont">
+      {{index+1}}.{{item.first}}-{{item.second}}
+    </view>
+  </view>
+</view>

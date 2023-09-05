@@ -1,0 +1,13 @@
+/* pages/mvdetail/mvdetail.wxss */
+.mv-video {
+transform: translateY(+50%);
+}
+.mv-video .vid {
+  width: 100%;
+}
+.mvname{
+  position: absolute;
+  bottom: 60rpx;
+  left: 40rpx;
+  color: aliceblue;
+}

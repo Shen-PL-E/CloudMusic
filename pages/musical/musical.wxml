@@ -1,0 +1,13 @@
+<!--pages/musical/musical.wxml-->
+<view class="tit">热门</view>
+<view class="cont">
+  <view class="singer" wx:for="{{singerList}}" wx:key="index" bind:tap="gotodetail" data-id="{{item.id}}">
+    <image src="{{item.picUrl}}" mode="" />
+    <text>{{item.name}}</text>
+  </view>
+</view>
+<view class="alphabet">
+  <view wx:for="{{alphabet}}" wx:key="item" data-con="{{item}}" bind:tap="show">
+  {{item}}
+  </view>
+</view>

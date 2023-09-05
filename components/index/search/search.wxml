@@ -1,0 +1,4 @@
+<!--components/index/search.wxml-->
+<view class="search" bind:tap="gotoSearch">
+  搜索歌曲<image class="sear-img" src="/image/image/search-2.png"/>
+</view>

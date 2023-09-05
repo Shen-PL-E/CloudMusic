@@ -1,0 +1,23 @@
+/* components/index/search.wxss */
+.search {
+  text-align: center;
+  width: 99%;
+  height: 70rpx;
+  line-height: 70rpx;
+  border: 1px solid #555;
+  margin: 20rpx auto;
+  color: #f6ce55;
+  font-size: 30rpx;
+  border-radius: 20rpx;
+  position: relative;
+
+}
+
+.sear-img {
+  position: absolute;
+  width: 40rpx;
+  height: 40rpx;
+  right: 10rpx;
+  top: 50%;
+  transform: translateY(-50%);
+}
